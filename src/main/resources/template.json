@@ -1,0 +1,17 @@
+{
+  "className": "InfoChanges",
+  "desc": "Lớp thao tác danh sach lich su tac dong theo nhan vien",
+  "listMethod": [
+    {
+      "type": "get",
+      "name": "getInfoChanges",
+      "value": "/v1/employees/{id}/info-changes",
+      "sql": "select * from HR_FAMILY_RELATIONSHIPS",
+      "desc": "Lay danh sach lich su tac dong theo nhan vien",
+      "count": 1
+    }
+  ]
+}
+
+
+

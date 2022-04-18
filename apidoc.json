@@ -1,0 +1,20 @@
+{
+  "name": "MBBank API Document",
+  "version": "1.0.0",
+  "description": "MBBank API Document",
+  "title": "MBBank API Document",
+  "url" : "http://14.225.7.172:8900",
+  "sampleUrl": "http://14.225.7.172:8900",
+  "header": {
+    "title": "General",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Coppy right",
+    "filename": "footer.md"
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

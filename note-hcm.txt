@@ -1,0 +1,58 @@
+D:\PROJECT\MBBank\HCM\back-end-hcm
+
+apidoc -i D:\PROJECT\MBBank\HCM\back-end-hcm -o D:\PROJECT\MBBank\HCM\back-end-hcm\WebContent\apidoc\
+apidoc -i D:\PROJECT\MBBank\git-ca-nhan-HCM\bank-hcm -o D:\PROJECT\MBBank\git-ca-nhan-HCM\bank-hcm\WebContent\apidoc\
+
+
+gitlab-ctl status
+gitlab-ctl tail
+gitlab-ctl reconfigure
+gitlab-ctl restart
+
+Quá trình HĐ vẫn chưa làm
+Quá trình tham gia dự án chưa test được
+
+
+
+// validate conflic qua trinh cong tac
+        boolean isConflicProcess = workProcessRepository.isConflictProcess(dto);
+        if (isConflicProcess) {
+            String message = I18n.getMessage("workProcess.validate.process");
+            return ResponseUtils.getResponseEntity(ErrorApp.INVALID_PARAM.getCode(), message);
+        }
+		
+		
+	
+	
+1. Lưu thông tin lịch sử thay đổi tại các màn hình nghiệp vụ
+2. Quá trình đào tạo
+3. Xử lý lưu file tại các màn hình có yêu cầu upload file
+4. Quản lý hồ sơ: Đang xây dựng nhưng bị vướng chỗ lưu file
+5. Xử lý phân quyền
+
+
+Câu hỏi 1: Nghiệp vụ xóa bản ghi của mình có phải là update flag_status hay xóa luôn bản ghi?.
+Câu hỏi 2: Chỗ lưu file có cần phải tạo bảng attachment_file để mapping vào nghiệp vụ
+
+
+
+Xử lý deleteData
+Xử lý getDataById
+
+
+
+Optional<HrFamilyRelationshipsEntity> optional = familyRelationshipsRepositoryJPA.findById(id);
+        if (!optional.isPresent()) {
+            return ResponseUtils.getResponseEntity(ErrorApp.BAD_REQUEST);
+        }
+
+        HrFamilyRelationshipsEntity entity = optional.get();
+        entity.setFlagStatus(Constants.STATUS.IS_NOT_ACTIVE);
+        familyRelationshipsRepositoryJPA.save(entity);
+		
+		
+		
+		
+API Nơi cấp  http://14.225.7.172:8900/api/v1/schools
+API chuyên ngành đào tạo: http://14.225.7.172:8900/api/v1/faculties
+Trình độ đào tạo: http://14.225.7.172:8900/api/v1/major_levels

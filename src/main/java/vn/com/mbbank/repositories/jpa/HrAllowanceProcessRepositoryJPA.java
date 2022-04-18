@@ -1,0 +1,2 @@
+package vn.com.mbbank.repositories.jpa;import vn.com.mbbank.entities.HrAllowanceProcessEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Hr_allowance_process *  * @author ToolGen * @date Sun Mar 20 22:26:14 ICT 2022 */@Repositorypublic interface HrAllowanceProcessRepositoryJPA extends JpaRepository<HrAllowanceProcessEntity, Long> {
+}

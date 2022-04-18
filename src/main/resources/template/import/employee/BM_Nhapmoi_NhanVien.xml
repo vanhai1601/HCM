@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_employees</tableName>
+    <firstDataRow>5</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+    <col title="global.emaillAdress" type="string"  length="100" nullable="true"/>
+	
+	<col title="global.gender" type="string"  length="50" nullable="false"/>
+	<col title="global.dateOfBirth" type="date"  length="10" nullable="false"/>
+	<col title="global.maritalStatus" type="string"  length="50" nullable="false"/>
+	<col title="global.mobileNumber" type="string"  length="20" nullable="false"/>
+	
+	<col title="global.companyPhone" type="string"  length="20" nullable="true"/>
+	<col title="global.personalEmail" type="string"  length="100" nullable="true"/>
+	
+	<col title="global.country" type="string"  length="50" nullable="false"/>
+	<col title="global.ethnic" type="string"  length="50" nullable="false"/>
+	<col title="global.religion" type="string"  length="50" nullable="false"/>
+	<col title="global.receiveDate" type="date"  length="10" nullable="false"/>
+	<col title="global.empType" type="string"  length="50" nullable="false"/>
+	<col title="global.documentType" type="string"  length="50" nullable="false"/>
+	<col title="global.orgName" type="string"  length="200" nullable="false"/>
+	<col title="global.posName" type="string"  length="200" nullable="false"/>
+	<col title="global.posLevel" type="string"  length="50" nullable="false"/>
+	<col title="global.EmpManager" type="string"  length="50" nullable="true"/>
+	
+	<col title="global.type" type="string"  length="50" nullable="true"/>
+	<col title="global.personalId" type="string"  length="20" nullable="true" duplicate="false"/>
+	<col title="global.personalIdDate" type="date"  length="10" nullable="true"/>
+	<col title="global.personalIdPlace" type="string"  length="200" nullable="true"/>
+	<col title="global.placeOfBirth" type="string"  length="200" nullable="true"/>
+	<col title="global.originalAdress" type="string"  length="200" nullable="true"/>
+	<col title="global.province" type="string"  length="50" nullable="true"/>
+	<col title="global.district" type="string"  length="50" nullable="true"/>
+	<col title="global.ward" type="string"  length="50" nullable="true"/>
+	<col title="global.addressDetail" type="string"  length="50" nullable="true"/>
+	<col title="global.province" type="string"  length="50" nullable="true"/>
+	<col title="global.district" type="string"  length="50" nullable="true"/>
+	<col title="global.ward" type="string"  length="50" nullable="true"/>
+	<col title="global.addressDetail" type="string"  length="50" nullable="true"/>
+	
+</root>

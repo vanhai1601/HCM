@@ -1,0 +1,1 @@
+Tài liệu mô tả Framework Core cho hệ thống HCM

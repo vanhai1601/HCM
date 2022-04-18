@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_decpline_records</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" duplicate="false" length="10" nullable="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+
+    <col title="global.signedDate" type="date"  length="10" nullable="false"/>
+    <col title="global.disciplineLevelName" type="string"  length="500" nullable="false"/>
+    <col title="global.disciplineMethodName" type="string"  length="500" nullable="false"/>
+    <col title="global.reason" type="string"  length="1000" nullable="false"/>
+    <col title="global.amount" type="long"  length="18" nullable="true"/>
+    <col title="global.note" type="string"  length="1000" nullable="true"/>
+</root>

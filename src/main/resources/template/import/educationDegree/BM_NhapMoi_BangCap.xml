@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_education_degrees</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" duplicate="false" length="10" nullable="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+
+    <col title="global.degreeTypeName" type="string"  length="500" nullable="false"/>
+    <col title="global.issueYear" type="int"  length="5" nullable="true"/>
+    <col title="global.degreeName" type="string"  length="200" nullable="false"/>
+    <col title="global.schoolName" type="string"  length="200" nullable="false"/>
+    <col title="global.facultyName" type="string"  length="500" nullable="false"/>
+    <col title="global.majorLevelName" type="string"  length="500" nullable="true"/>
+    <col title="global.eduRankName" type="string"  length="500" nullable="true"/>
+    <col title="global.isRelatedJob" type="int"  length="10" nullable="true"/>
+    <col title="global.isHighest" type="int"  length="10" nullable="true"/>
+    <col title="global.note" type="string"  length="500" nullable="true"/>
+</root>

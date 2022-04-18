@@ -1,0 +1,9 @@
+/target/
+/.idea
+/logs-backend
+*.class
+/out/
+/WebContent
+/Libs/apose-cell-1.0-RELEASE.jar
+/Libs/apose-word-1.0-RELEASE.jar
+/Libs/jexcel-1.0-RELEASE.jar

@@ -1,0 +1,2 @@
+package vn.com.mbbank.repositories.jpa;import vn.com.mbbank.entities.HrDecplineRecordsEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Hr_decpline_records *  * @author ToolGen * @date Sun Mar 20 21:32:18 ICT 2022 */@Repositorypublic interface HrDecplineRecordsRepositoryJPA extends JpaRepository<HrDecplineRecordsEntity, Long> {
+}

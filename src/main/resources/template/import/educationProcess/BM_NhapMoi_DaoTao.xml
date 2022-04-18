@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_education_process</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" duplicate="false" length="10" nullable="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+    <col title="global.courseName" type="string"  length="200" nullable="false"/>
+    <col title="global.eduMethodTypeName" type="string"  length="500" nullable="true"/>
+    <col title="global.courseContent" type="string"  length="1000" nullable="false"/>
+    <col title="global.fromDate" type="date"  length="10" nullable="false"/>
+    <col title="global.toDate" type="date"  length="10" nullable="true"/>
+    <col title="global.note" type="string"  length="1000" nullable="true"/>
+</root>

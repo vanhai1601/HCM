@@ -1,0 +1,2 @@
+package vn.com.mbbank.repositories.jpa;import vn.com.mbbank.entities.HrWorkProcessEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Hr_work_process *  * @author ToolGen * @date Sun Mar 20 21:37:41 ICT 2022 */@Repositorypublic interface HrWorkProcessRepositoryJPA extends JpaRepository<HrWorkProcessEntity, Long> {
+}

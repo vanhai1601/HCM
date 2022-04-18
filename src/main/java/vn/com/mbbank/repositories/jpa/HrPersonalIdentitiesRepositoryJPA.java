@@ -1,0 +1,2 @@
+package vn.com.mbbank.repositories.jpa;import vn.com.mbbank.entities.HrPersonalIdentitiesEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Hr_personal_identities *  * @author ToolGen * @date Sun Mar 20 21:50:21 ICT 2022 */@Repositorypublic interface HrPersonalIdentitiesRepositoryJPA extends JpaRepository<HrPersonalIdentitiesEntity, Long> {
+}

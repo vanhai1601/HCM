@@ -1,0 +1,2 @@
+package vn.com.mbbank.repositories.jpa;import vn.com.mbbank.entities.HrInfoChangesEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;/** * Autogen class Repository Interface: Create Repository For Table Name Hr_info_changes *  * @author ToolGen * @date Sun Mar 20 22:23:55 ICT 2022 */@Repositorypublic interface HrInfoChangesRepositoryJPA extends JpaRepository<HrInfoChangesEntity, Long> {
+}
